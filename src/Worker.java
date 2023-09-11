@@ -33,7 +33,7 @@ public class Worker extends Person
             normalHours = hoursWorked;
         }
 
-        return ("Normal hours worked: " + normalHours + "\n" + "Normal Hour Pay: " + "Overtime hours worked: " + overtimeHours + "Overtime pay: " + "\n" +
+        return ("Normal hours worked: " + normalHours + "\n" + "Overtime hours worked: " + overtimeHours + "\n" +
         "Total Pay: " + weeklyPay);
     }
 }
